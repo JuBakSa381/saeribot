@@ -44,5 +44,5 @@ async def on_member_join(member):
     await member.send("님 새리해서버에 오신 것을 환영합니다")
 
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run("access_token")
